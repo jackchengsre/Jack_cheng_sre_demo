@@ -3,7 +3,7 @@
 
 ## Overview
 
-JC SRE Copilot is an advanced solution for Site Reliability Engineers that uses AWS Bedrock's foundation models in a multi-agent architecture to analyze different data sources (logs, metrics, dashboards) and collaborate to determine the root cause of incidents. The multi-modal capabilities allow the system to process both textual and visual data for more comprehensive analysis.
+SRE Copilot is an advanced solution for Site Reliability Engineers that uses AWS Bedrock's foundation models in a multi-agent architecture to analyze different data sources (logs, metrics, dashboards) and collaborate to determine the root cause of incidents. The multi-modal capabilities allow the system to process both textual and visual data for more comprehensive analysis.
 
 ## Key Features
 
@@ -16,7 +16,7 @@ JC SRE Copilot is an advanced solution for Site Reliability Engineers that uses 
 
 ## AWS Monitoring Integration
 
-JC SRE Copilot integrates with key AWS monitoring services:
+SRE Copilot integrates with key AWS monitoring services:
 
 - **AWS CloudTrail**: Analyzes API activity for errors, throttling, and unusual patterns
 - **VPC Flow Logs**: Examines network traffic for rejected connections and anomalies
@@ -43,7 +43,7 @@ The event correlation system analyzes data from multiple sources to identify the
 
 ## Getting Started
 
-See the [Deployment Guide](docs/deployment_guide.md) for instructions on setting up and deploying Jack Cheng's SRE Copilot in your AWS environment.
+See the [Deployment Guide](docs/deployment_guide.md) for instructions on setting up and deploying SRE Copilot in your AWS environment.
 
 
 
