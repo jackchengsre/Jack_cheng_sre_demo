@@ -1,12 +1,9 @@
-# Jack Cheng's SRE Copilot with AWS Bedrock
+# SRE Copilot with AWS Bedrock
 
-## Proprietary and Confidential
-
-This repository contains Jack Cheng's proprietary SRE Copilot solution that leverages AWS Bedrock foundation models to perform root cause analysis with logs, metrics, and dashboards using multi-agent and multi-modal capabilities.
 
 ## Overview
 
-Jack Cheng's SRE Copilot is an advanced solution for Site Reliability Engineers that uses AWS Bedrock's foundation models in a multi-agent architecture to analyze different data sources (logs, metrics, dashboards) and collaborate to determine the root cause of incidents. The multi-modal capabilities allow the system to process both textual and visual data for more comprehensive analysis.
+JC SRE Copilot is an advanced solution for Site Reliability Engineers that uses AWS Bedrock's foundation models in a multi-agent architecture to analyze different data sources (logs, metrics, dashboards) and collaborate to determine the root cause of incidents. The multi-modal capabilities allow the system to process both textual and visual data for more comprehensive analysis.
 
 ## Key Features
 
@@ -19,7 +16,7 @@ Jack Cheng's SRE Copilot is an advanced solution for Site Reliability Engineers 
 
 ## AWS Monitoring Integration
 
-Jack Cheng's SRE Copilot integrates with key AWS monitoring services:
+JC SRE Copilot integrates with key AWS monitoring services:
 
 - **AWS CloudTrail**: Analyzes API activity for errors, throttling, and unusual patterns
 - **VPC Flow Logs**: Examines network traffic for rejected connections and anomalies
@@ -48,11 +45,6 @@ The event correlation system analyzes data from multiple sources to identify the
 
 See the [Deployment Guide](docs/deployment_guide.md) for instructions on setting up and deploying Jack Cheng's SRE Copilot in your AWS environment.
 
-## License
 
-Copyright © 2025 Jack Cheng. All rights reserved. This is proprietary software.
-Unauthorized copying, transfer, or reproduction of the contents of this repository is strictly prohibited.
 
-## Contact
 
-For inquiries about Jack Cheng's SRE Copilot, please contact Jack Cheng directly.
